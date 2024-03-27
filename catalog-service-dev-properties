@@ -1,1 +1,7 @@
 
+#spring.data.mongodb.host=mongo-server
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=CatalogDB
+sever.port=0
+eureka.instance.instance-id="${spring.application.name}:${random.value}"
